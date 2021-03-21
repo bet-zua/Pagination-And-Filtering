@@ -4,15 +4,6 @@ FSJS Project 2 - Data Pagination and Filtering
 */
 
 
-
-/*
-For assistance:
-   Check out the "Project Resources" section of the Instructions tab: https://teamtreehouse.com/projects/data-pagination-and-filtering#instructions
-   Reach out in your Slack community: https://treehouse-fsjs-102.slack.com/app_redirect?channel=unit-2
-*/
-
-
-
 /*
 This function creates and inserts/appends the elements needed to display a "page" of nine students.
 The function takes two parameters, an array of student data & a page number
