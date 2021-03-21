@@ -1,2 +1,3 @@
 # Pagination-And-Filtering
-Data pagination and filtering of student information
+Project dynamically dividing student data into pages, and
+providing case-insensitive search filtering of student names.
