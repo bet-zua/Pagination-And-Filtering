@@ -58,7 +58,7 @@ function addPagination(list){
    }
    const firstButton = document.querySelectorAll('button')[0];
    firstButton.className = 'active';
-   
+
    linkList.addEventListener('click', (e)=>{
       const clickedElement = e.target;
       if(clickedElement.type == 'button'){
@@ -95,7 +95,6 @@ function addSearchBar(list){
          if(student["name"]["title"].toLowerCase().includes(search)|| 
             student["name"]["first"].toLowerCase().includes(search) || 
             student["name"]["last"].toLowerCase().includes(search)){
-            console.log(student);
             matched.push(student);
          }
       }
